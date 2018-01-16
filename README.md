@@ -1,6 +1,6 @@
 # jsladies.org
 
-> Perfil Portifólio
+> Site jsladies.org
 
 ## Build Setup
 
