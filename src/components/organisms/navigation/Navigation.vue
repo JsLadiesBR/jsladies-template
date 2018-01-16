@@ -2,7 +2,7 @@
 
   section#header
     header
-      perfil(:perfil='{ description: "Javascript de mulheres para mulheres", logo: "{ JS Ladies }" }')
+      perfil(:perfil='{ description: "JavaScript de mulheres para mulheres", logo: "{ JS Ladies }" }')
     nav(id="nav", class="navigation")
       main-menu(:options='menu')
     footer
