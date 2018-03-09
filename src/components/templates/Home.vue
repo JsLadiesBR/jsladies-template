@@ -11,12 +11,11 @@
         p Nós somos o primeiro grupo nacional e exclusivamente feminino focado em ensinar e ajudar mais mulheres a programarem em JavaScript. Nossa iniciativa nasceu da necessidade de promover um ambiente seguro, agradável e produtivo para qualquer pessoa cis, trans, binária ou não-binária que se identifique com o gênero feminino e que se interessa por computação.
         
       section-container(id="three")
-        h3 A few Accomplisments
-        p Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non.
-        .features
-          article-container(url="#", title="Possibly broke spacetime", resume="Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.")
-          article-container(url="#", title="Possibly broke spacetime", resume="Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.")
-          article-container(url="#", title="Possibly broke spacetime", resume="Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.")
+        h3 Próximos eventos
+        .eventos
+          article-container(url="#", title="Rio de Janeiro", horario="9h as 17h", local="Em breve", organizacao="Raysa Dutra e ...")
+          article-container(url="#", title="São Paulo", horario="definir", local="Em breve", organizacao="Ana Bastos")
+          article-container(url="#", title="Porto Alegre", horario="definir", local="Em breve", organizacao="Ju Dantas")
 
       section-container(id="four")
         h3 Contact Me

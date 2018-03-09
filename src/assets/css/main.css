@@ -3091,3 +3091,36 @@
 			}
 
 	}
+
+	.eventos {
+		display: table;
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	.eventos article {
+		border: 1px solid transparent;
+		display: table-cell;
+		width: calc(100%/3);
+		box-sizing: border-box;
+		padding: 10px;
+		border-radius: 5px;
+	}
+	.eventos .title {
+		text-align: center;
+		margin-top: 10px;
+	}
+	.eventos span {
+		display: block;
+		text-align: center;
+	}
+	.eventos article a {
+		display: block;
+		border: none;
+	}
+
+	.eventos article:hover {
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	}

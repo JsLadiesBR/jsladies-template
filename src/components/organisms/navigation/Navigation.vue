@@ -22,8 +22,8 @@ export default {
       menu: [
         { name: 'JS Ladies', url: '#one' },
         { name: 'O que é o JS Ladies?', url: '#two' },
-        { name: 'Eventos', url: '#three' },
-        { name: 'Contato', url: '#four' }
+        { name: 'Próximos eventos', url: '#three' },
+        { name: 'Patrocínio', url: '#four' }
       ]
     }
   },
