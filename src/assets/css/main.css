@@ -2607,6 +2607,30 @@
 		height: auto; 
 	}
 
+	.event span {
+		display: block;
+		margin-bottom: 3px;
+		color: #fff;
+	}
+
+	.with-rio {
+		background: url("../img/rio-janeiro.jpg") 50% 0 no-repeat fixed;
+		background-size: cover;
+		height: auto; 
+	}
+
+	.with-saopaulo {
+		background: url("../img/saopaulo.jpg") 50% 0 no-repeat fixed;
+		background-size: cover;
+		height: auto; 
+	}
+
+	.with-portoalegre {
+		background: url("../img/portoalegre.png") 50% 0 no-repeat fixed;
+		background-size: cover;
+		height: auto; 
+	}
+
 	.overlay {
 		padding: 100px 0;
 		width: 100%;

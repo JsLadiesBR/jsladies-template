@@ -6,7 +6,7 @@
           h2 { JS Ladies }
           p JavaScript de mulheres para mulheres
 
-      section(id="two", class="with-background")
+      section(id="two", class="with-background with-jsladies")
         .overlay
           .container
             h3.js-title O que é o JS Ladies?
@@ -14,10 +14,10 @@
           
       section-container(id="three")
         h3.js-title Próximos eventos
-        .eventos
-          article-container(url="#", title="Rio de Janeiro", horario="9h as 17h", local="Instituto INFNET", organizacao="Raysa Dutra e ...")
-          article-container(url="#", title="São Paulo", horario="definir", local="Em breve", organizacao="Ana Bastos")
-          article-container(url="#", title="Porto Alegre", horario="definir", local="Em breve", organizacao="Ju Dantas")
+      
+      article-container(url="#", cidade="with-rio", title="Rio de Janeiro", horario="9h as 17h", local="Instituto INFNET", organizacao="Raysa Dutra e ...")
+      // article-container(url="#", cidade="with-saopaulo", title="São Paulo", horario="definir", local="Em breve", organizacao="Ana Bastos")
+      // article-container(url="#", cidade="with-portoalegre", title="Porto Alegre", horario="definir", local="Em breve", organizacao="Ju Dantas")
 
       section-container(id="four")
         h3.js-title Parceiros
