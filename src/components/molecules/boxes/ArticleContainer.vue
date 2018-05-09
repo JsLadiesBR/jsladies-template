@@ -2,8 +2,8 @@
   div(:class="cidade")
     .overlay
       article.event.container
-        .inner
-          h4.js-title {{ title }}
+        h4.js-title {{ title }}
+        .inner.col-md-6
           span.horario
             strong Horário: 
             | {{ horario }}
@@ -12,11 +12,11 @@
             | {{ local }}
           span.organizacao 
             strong Organizadoras: 
-            | {{ organizacao }}
+            span.organizadoras {{ organizacao }}
           span.facebook
-            a(:href=facebook)
-              strong Página no Facebook
-        .inner-right
+            strong 
+              a(:href=facebook) Página no Facebook
+        .col-md-6
           google
 </template>
 
@@ -36,11 +36,6 @@ export default {
     local: String,
     organizacao: String,
     facebook: String
-  },
-  mounted () {
-    this.$refs.page.$mapPromise.then(map => {
-      map.panTo({ lat: 1.38, lng: 103.80 })
-    })
   }
 }
 </script>

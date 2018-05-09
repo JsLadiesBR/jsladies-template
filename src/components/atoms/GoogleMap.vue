@@ -1,28 +1,11 @@
 <template>
   <div>
-
-    <div>
-      <label>
-        <gmap-autocomplete
-          @place_changed="setPlace">
-        </gmap-autocomplete>
-        <button @click="addMarker">Add</button>
-      </label>
-      <br/>
-    </div>
-    <br>
-    
     <gmap-map
       :center="center"
       :zoom="12"
       style="width:100%;  height: 400px;"
     >
-      <gmap-marker
-        :key="index"
-        v-for="(m, index) in markers"
-        :position="m.position"
-        @click="center=m.position"
-      ></gmap-marker>
+      <gmap-marker :key="index" v-for="(m, index) in markers" :position="m.position" @click="center=m.position"></gmap-marker>
     </gmap-map>
   </div>
 </template>
@@ -34,7 +17,7 @@ export default {
     return {
       // default to Montreal to keep it simple
       // change this to whatever makes sense
-      center: { lat: 45.508, lng: -73.587 },
+      center: { lat: -22.9060598, lng: -43.1768968 },
       markers: [],
       places: [],
       currentPlace: null

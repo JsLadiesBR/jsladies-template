@@ -23,7 +23,8 @@ export default {
         { name: 'JS Ladies', url: '#one' },
         { name: 'O que é o JS Ladies?', url: '#two' },
         { name: 'Próximos eventos', url: '#three' },
-        { name: 'Patrocínio', url: '#four' }
+        { name: 'Nossas treinadoras', url: '#four' },
+        { name: 'Parceiros', url: '#five' }
       ]
     }
   },

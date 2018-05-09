@@ -7,6 +7,24 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.col-md-6 {
+	width: 50%;
+	float: left;
+}
+
+article.event {
+	overflow: hidden;
+}
+
+article.event strong {
+	background-color: rgba(0,0,0,0.8);
+	padding: 10px;
+	color: #fff;
+	margin-right: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -2609,8 +2627,12 @@
 
 	.event span {
 		display: block;
-		margin-bottom: 3px;
+		margin-bottom: 15px;
 		color: #fff;
+	}
+
+	.event span.organizadoras {
+		margin-top: 10px;
 	}
 
 	.with-rio {
@@ -2649,7 +2671,7 @@
 		border-bottom: 2px solid #777;
 	}
 
-	#four:after {
+	#five:after {
 		background-image: url("../background-2.png");
 		background-position: 50% right;
 		background-repeat: no-repeat;
