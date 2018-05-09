@@ -6,40 +6,29 @@
           h2 { JS Ladies }
           p JavaScript de mulheres para mulheres
 
-      section-container(id="two")
-        h3 O que é o JS Ladies?
-        p Nós somos o primeiro grupo nacional e exclusivamente feminino focado em ensinar e ajudar mais mulheres a programarem em JavaScript. Nossa iniciativa nasceu da necessidade de promover um ambiente seguro, agradável e produtivo para qualquer pessoa cis, trans, binária ou não-binária que se identifique com o gênero feminino e que se interessa por computação.
-        
+      section(id="two", class="with-background")
+        .overlay
+          .container
+            h3.js-title O que é o JS Ladies?
+            p Nós somos o primeiro grupo nacional e exclusivamente feminino focado em ensinar e ajudar mais mulheres a programarem em JavaScript. Nossa iniciativa nasceu da necessidade de promover um ambiente seguro, agradável e produtivo para qualquer pessoa cis, trans, binária ou não-binária que se identifique com o gênero feminino e que se interessa por computação.
+          
       section-container(id="three")
-        h3 Próximos eventos
+        h3.js-title Próximos eventos
         .eventos
-          article-container(url="#", title="Rio de Janeiro", horario="9h as 17h", local="Em breve", organizacao="Raysa Dutra e ...")
+          article-container(url="#", title="Rio de Janeiro", horario="9h as 17h", local="Instituto INFNET", organizacao="Raysa Dutra e ...")
           article-container(url="#", title="São Paulo", horario="definir", local="Em breve", organizacao="Ana Bastos")
           article-container(url="#", title="Porto Alegre", horario="definir", local="Em breve", organizacao="Ju Dantas")
 
       section-container(id="four")
-        h3 Contact Me
-        p Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.
-        form
-          .row.uniform
-            input-container(span="6u 12u(xsmall)")
-              input(type="text", name="name", id="name", placeholder="Name")
-            input-container(span="6u 12u(xsmall)")
-              input(type="email", name="email", id="email", placeholder="Email")
+        h3.js-title Parceiros
+        p Nosso projeto conta com a ajuda e apoio de empresas e pessoas incriveis! Estamos em busca de Parceiros 
+          | que possam ajudar nosso evento seja com doações de recursos, tempo ou conhecimento para tornar 
+          | o { JSLadies } um evento especial!
+          br
+          br
+          | Se você deseja contribuir, por gentileza entre em contato com a gente: 
+          a(href="mail:contato@jsladies.org") contato@jsladies.org
 
-          .row.uniform
-            input-container(span="12u")
-              input(type="text", name="subject", id="subject", placeholder="Subject")
-
-          .row.uniform
-            input-container(span="12u")
-              textarea(name="message", id="message", placeholder="Message", row="6")
-
-          .row.uniform
-            input-container(span="12u")
-              ul.actions
-                li: input(type="submit", class="special", value="Send Message")
-                li: input(type="reset", value="Reset form")
 </template>
 
 <script>
