@@ -14,8 +14,8 @@
             strong Organizadoras: 
             span.organizadoras {{ organizacao }}
           span.facebook
-            strong 
-              a(:href=facebook) Página no Facebook
+            strong
+              a(href="https://goo.gl/oMC6yV", target="_blank") INSCRIÇÃO AQUI!
         .col-md-6
           google
 </template>
@@ -34,8 +34,7 @@ export default {
     cidade: String,
     horario: String,
     local: String,
-    organizacao: String,
-    facebook: String
+    organizacao: String
   }
 }
 </script>

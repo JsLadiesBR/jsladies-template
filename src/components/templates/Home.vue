@@ -15,12 +15,14 @@
       section-container(id="three")
         h3.js-title Próximos eventos
         p Escrever alguma descricao aqui sobre os eventos
-      article-container(url="#", cidade="with-rio", title="Rio de Janeiro", horario="9h as 17h", local="Instituto INFNET", organizacao="Raysa Dutra, Ingrid Tartaglia, Ju Dantas")
+      article-container(url="https://goo.gl/oMC6yV", cidade="with-rio", title="Rio de Janeiro", horario="9h as 17h", local="Instituto INFNET", organizacao="Raysa Dutra, Ingrid Tartaglia, Ju Dantas")
       // article-container(url="#", cidade="with-saopaulo", title="São Paulo", horario="definir", local="Em breve", organizacao="Ana Bastos")
       // article-container(url="#", cidade="with-portoalegre", title="Porto Alegre", horario="definir", local="Em breve", organizacao="Ju Dantas")
 
       section-container(id="four")
         h3.js-title Nossas treinadoras
+        treinadoras
+
       section-container(id="five")
         h3.js-title Parceiros
         p Nosso projeto conta com a ajuda e apoio de empresas e pessoas incriveis! Estamos em busca de Parceiros 
@@ -34,6 +36,7 @@
 </template>
 
 <script>
+import Treinadoras from '@/components/molecules/Treinadoras'
 import InputContainer from '@/components/molecules/boxes/InputContainer'
 import ArticleContainer from '@/components/molecules/boxes/ArticleContainer'
 import SectionContainer from '@/components/molecules/boxes/SectionContainer'
@@ -43,7 +46,8 @@ export default {
     navigation: Navigation,
     sectionContainer: SectionContainer,
     articleContainer: ArticleContainer,
-    inputContainer: InputContainer
+    inputContainer: InputContainer,
+    treinadoras: Treinadoras
   }
 }
 </script>
