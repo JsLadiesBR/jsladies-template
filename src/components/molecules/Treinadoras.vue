@@ -10,7 +10,7 @@
         span
             img(src="src/assets/img/judantas.jpg", class="coach")
         br
-        a(href="#", target="_blank") Ingrid 
+        a(href="#", target="_blank") Ingrid Tartaglia
 
     .col-md-2
         span
