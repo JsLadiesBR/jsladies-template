@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import GoogleMap from '@/components/atoms/GoogleMap'
+import GoogleMap from '@/components/atoms/Maps'
 export default {
   name: 'ArticleContainer',
   components: {

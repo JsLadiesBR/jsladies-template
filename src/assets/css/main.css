@@ -1605,7 +1605,7 @@ article.event strong {
 	}
 
 	p {
-		margin: 0 0 2.25em 0;
+		margin: 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -3216,4 +3216,22 @@ article.event strong {
 
 	.coaches .col-md-2 {
 		font-size: 18px;
+	}
+
+	.inscricao-treinadora {
+		background: #4c0986;
+		color: #fff;
+		text-transform: uppercase;
+		padding: 3px 15px;
+		width: auto;
+	}
+
+	.jsladies {
+		padding: 3px 10px;
+		background: #4c0986;
+		color: #f4ee3a;
+	}
+
+	.justificado {
+		text-align: justify;
 	}
